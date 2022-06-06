@@ -1,0 +1,20 @@
+.upload-image {
+  width: 36px;
+  height: 36px;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.upload-image:hover {
+  background-color: var(--input-bg-color);
+}
+
+#upload-image-input {
+  display: none;
+}

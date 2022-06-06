@@ -1,0 +1,71 @@
+.send-message {
+  display: grid;
+  grid-template-rows: max-content;
+  grid-auto-columns: 100%;
+  grid-auto-rows: max-content;
+}
+
+.send-message__form {
+  display: grid;
+  grid-template-columns: max-content max-content 1fr max-content;
+  grid-template-rows: max-content;
+  gap: 10px;
+  padding: 10px;
+}
+
+.send-message__button {
+  font-size: 1.6rem;
+  padding: 8px;
+  aspect-ratio: 1 / 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: transparent;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.send-message__button:hover {
+  background-color: var(--input-bg-color);
+}
+
+.send-message__input {
+  font-size: 1.6rem;
+  border-radius: 20px;
+  padding: 0 15px;
+  background-color: var(--input-bg-color);
+  color: var(--white);
+  border: none;
+  outline: none;
+}
+
+.selected-image-container {
+  position: relative;
+  width: fit-content;
+  justify-self: center;
+}
+
+.selected-image {
+  display: block;
+  max-height: 180px;
+  max-width: min(200px, 80vw);
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid var(--input-bg-color);
+  border-radius: 8px;
+}
+
+.deselect-image-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 2rem;
+  display: block;
+  padding: 0px 8px 1px 9px;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--input-bg-color);
+  color: var(--white);
+  cursor: pointer;
+}

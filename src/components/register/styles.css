@@ -1,0 +1,29 @@
+.register-form {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.register-form__input {
+  box-sizing: border-box;
+  width: 350px;
+  font-size: 1.6rem;
+  padding: 8px 16px;
+  border: none;
+  outline: none;
+  background-color: var(--input-bg-color);
+  color: var(--white);
+}
+
+.register-form__button {
+  width: 350px;
+  padding: 8px 16px;
+  background-color: var(--message-from-me-bg-color);
+  color: var(--white);
+  font-size: 1.6rem;
+  border: none;
+  cursor: pointer;
+}

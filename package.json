@@ -1,0 +1,23 @@
+{
+  "name": "react-and-express-boilerplate",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "start": "clear & concurrently 'node server.js' 'vite'",
+    "dev": "clear & concurrently 'vite' 'nodemon server.js'",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "express": "^4.17.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "socket.io": "^4.5.1",
+    "socket.io-client": "^4.5.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^1.0.7",
+    "nodemon": "^2.0.15",
+    "vite": "^2.9.0"
+  }
+}
